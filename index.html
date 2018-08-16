@@ -1,21 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <head lang="en">
-    <title>Under Development | Custom Code Library</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <style>
-      body{
-        background: #ffffff;
-        color: #CF031B;
-        font-family: 'Roboto', sans-serif;
-        padding: 10px;
-      }
-    </style>
-  </head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Coming Soon | Custom Coding Library</title>
+        <meta name="description" content="CustomCodeLibrary is a website that allow users to create simple Libraries for their project ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" media="screen" href="css/styles.css">
+   </head>
+      
+    <body>
 
-  <body>
-    <center>
-      <h1>Coming Soon</h1>
-    </center>
-  </body>
+        <!-- Content -->
+        <div class="container">
+          <center>
+            <h3 id="heading">Coming Soon</h3>
+            <div id="email_info">
+              <!-- <form action="https://bottle-green-inject.000webhostapp.com/email_parser.php" method="POST"> -->
+              <input id="email" type="email" name="email" placeholder="Email" required/>
+              <br/>
+              <input id="notify_btn" type="submit" onclick="send_email()" value="Notify Me">
+            </div>
+          </center>
+        </div>
+
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+
+        <!-- scripts -->
+        <scirpt src="js/jquery.min.js"></scirpt>
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/parse_email.js"></script>
+    </body>
 </html>

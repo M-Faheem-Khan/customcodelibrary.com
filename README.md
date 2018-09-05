@@ -1,5 +1,6 @@
 # customcodelibrary.com
-Contains files for customcodelibrary.com
+To sign up for the mailing list - customcodinglibrary.com
+To check out the website - beta.customcodelibrary.com
 Custom Code Library is a website where developers can create a custom library for their projects.
 
 #### Supported Languages
